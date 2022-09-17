@@ -1,0 +1,8 @@
+.idea
+*.iml
+out
+
+.DS_Store
+src/.DS_Store
+
+node_modules

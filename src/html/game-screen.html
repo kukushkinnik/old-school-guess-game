@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link
+            href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+            rel="stylesheet"
+    />
+    <link href="../../node_modules/nes.css/css/nes.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../styles/scss/game.css"
+    <title>Game</title>
+</head>
+<body>
+<main>
+    <div class="nes-container is-rounded is-dark rules" >
+        <p>Rules:</p>
+        <ul class="">
+            <li>You have 7 attempts</li>
+            <li>Number is in range 1-100</li>
+            <li>Text or empty input is not allowed!</li>
+            <li>There is a secret hidden, that will be revealed under certain conditions</li>
+        </ul>
+    </div>
+    <div class="game nes-container is-rounded is-dark">
+        <div class="health-bar">
+            <ul class="health-bar-list">
+                <li><i class="nes-icon is-meduim heart"></i></li>
+                <li><i class="nes-icon is-meduim heart"></i></li>
+                <li><i class="nes-icon is-meduim heart"></i></li>
+                <li><i class="nes-icon is-meduim heart"></i></li>
+                <li><i class="nes-icon is-meduim heart"></i></li>
+                <li><i class="nes-icon is-meduim heart"></i></li>
+                <li><i class="nes-icon is-meduim heart"></i></li>
+
+            </ul>
+        </div>
+        <div class="main-field">
+            <h1 class="result nes-text is-primary status">Let's start</h1>
+            <form>
+                <input  type="text" class="nes-input is-dark guess" >
+                <button class="nes-btn is-success guess-btn">Guess</button>
+            </form>
+
+        </div>
+    </div>
+</main>
+<script src="../js/game.js"></script>
+</body>
+</html>

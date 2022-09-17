@@ -1,0 +1,40 @@
+.nes-container {
+  background-color: #000000;
+  height: 60vh;
+}
+.nes-container main h1 {
+  text-align: center;
+}
+.nes-container main .welcome {
+  margin: 2em;
+  height: 60vh;
+}
+.nes-container main .welcome .message-left {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+}
+.nes-container main .welcome .message-left .gm {
+  width: 128px;
+  height: 128px;
+}
+.nes-container main .welcome .controls {
+  height: 25%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nes-container main .welcome .controls button {
+  width: 35%;
+  height: 55%;
+}
+.nes-container main .welcome .controls a,
+.nes-container main .welcome .controls a:hover,
+.nes-container main .welcome .controls a:focus,
+.nes-container main .welcome .controls a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=start.css.map */
